@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="/register" method="POST">
+        <h1>REGISTRATION FORM</h1>
+        <input  type="text" name="name" placeholder="Enter your name">
+        <input type="email" name="email" placeholder="Enter your email">
+        <input type="password" name="password" placeholder="Set password">
+        <input type="text" name="college" placeholder="college name">
+        <button >Register</button>
+    </form>
+</body>
+<style>
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        width: 500px;
+        margin: auto;
+        background-image: url('./static/img2.jpg');
+        background-position: center;
+        background-size: cover;
+        
+        height: 90vh;
+
+    }
+    input{
+width: 400px;
+padding: 10px;
+margin: 20px;
+    }
+    h1{
+        margin-top: 0px;
+        color: white;
+        text-decoration: underline;
+    }
+    button{
+        padding: 5px;
+        margin-top: 10px;
+    }
+</style>
+</html>
